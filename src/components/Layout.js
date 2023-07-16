@@ -20,6 +20,9 @@ const Layout = () => {
 					<li>
 						<Link to="/useEffect">UseEffect</Link>
 					</li>
+					<li>
+						<Link to="/useContext">UseContext</Link>
+					</li>
 				</ul>
 			</nav>
 
