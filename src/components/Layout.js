@@ -23,6 +23,12 @@ const Layout = () => {
 					<li>
 						<Link to="/useContext">UseContext</Link>
 					</li>
+					<li>
+						<Link to="/useRef">useRef</Link>
+					</li>
+					<li>
+						<Link to="/useMemo">useMemo</Link>
+					</li>
 				</ul>
 			</nav>
 
