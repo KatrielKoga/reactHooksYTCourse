@@ -29,6 +29,12 @@ const Layout = () => {
 					<li>
 						<Link to="/useMemo">useMemo</Link>
 					</li>
+					<li>
+						<Link to="/useCallback">useCallback</Link>
+					</li>
+					<li>
+						<Link to="/useReducer">useReducer</Link>
+					</li>
 				</ul>
 			</nav>
 

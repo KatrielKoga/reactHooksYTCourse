@@ -5,6 +5,8 @@ import UseEffect from './hooks/mustKnow/useEffect';
 import UseContext from './hooks/mustKnow/useContext';
 import UseRef from './hooks/lesserUsed/useRef';
 import UseMemo from './hooks/lesserUsed/useMemo';
+import UseCallBack from './hooks/lesserUsed/useCallback';
+import UseReducer from './hooks/lesserUsed/useReducer';
 
 function App() {
 	return (
@@ -16,6 +18,8 @@ function App() {
 					<Route path="/useContext" element={<UseContext />} />
 					<Route path="/useRef" element={<UseRef />} />
 					<Route path="/useMemo" element={<UseMemo />} />
+					<Route path="/useCallback" element={<UseCallBack />} />
+					<Route path="/useReducer" element={<UseReducer />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
